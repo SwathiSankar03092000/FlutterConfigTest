@@ -43,8 +43,5 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 
-DevConfig.dart
-ProdConfig.dart
-
 /lib/DevConfig.dart
 /lib/ProdConfig.dart
