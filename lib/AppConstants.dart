@@ -5,10 +5,11 @@ class AppConstants {
   static String environment =
       const String.fromEnvironment('FLUTTER_ENV', defaultValue: 'dev');
 
-  // static String baseUrl =
-  //     environment == "dev" ? DevConfig.baseUrl : ProdConfig.baseUrl;
-  // static String platform =
-  //     environment == "dev" ? DevConfig.platform : ProdConfig.platform;
+  static String baseUrl =
+      environment == "dev" ? DevConfig.baseUrl : ProdConfig.baseUrl;
+  static String platform =
+      environment == "dev" ? DevConfig.platform : ProdConfig.platform;
+
   // static String? platform;
   // static String? baseUrl;
 
