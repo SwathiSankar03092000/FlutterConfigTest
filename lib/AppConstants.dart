@@ -1,5 +1,5 @@
-import 'package:configtest/DevConfig.dart';
-import 'package:configtest/ProdConfig.dart';
+import 'package:configtest/Helpers/EnvConfig/DevConfig.dart';
+import 'package:configtest/Helpers/EnvConfig/ProdConfig.dart';
 
 class AppConstants {
   static String environment =
